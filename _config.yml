@@ -19,3 +19,16 @@ github_username:  jekyll
 
 # Build settings
 markdown: kramdown
+
+# Plugins, yay!
+gems:
+  # Creates an XML sitemap.
+  - jekyll-sitemap
+  # Compile Coffeescript to Javascript.
+  - jekyll-coffeescript
+  # Compile all of the assets together.
+  - jekyll-assets
+
+assets:
+  # Add a CDN for where to host static files.
+  # cdn: "http://yourdomain.com"
